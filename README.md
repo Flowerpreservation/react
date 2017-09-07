@@ -1,11 +1,13 @@
 # react
 webpack下搭建react.js
+
 #react+webpack开发
+
 1.webpack环境搭建
 
-  链接    https://doc.webpack-china.org/guides/development
+  https://doc.webpack-china.org/guides/development
   
-          http://www.cnblogs.com/zhengjialux/p/6376501.html?utm_source=itdadao&utm_medium=referral
+ http://www.cnblogs.com/zhengjialux/p/6376501.html?utm_source=itdadao&utm_medium=referral
   
   环境搭建须知：
   
