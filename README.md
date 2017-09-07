@@ -1,15 +1,18 @@
 # react
-photo base on react
+webpack下搭建react.js
 #react+webpack开发
-
 1.webpack环境搭建
-  链接   https://doc.webpack-china.org/guides/development
+
+  链接    https://doc.webpack-china.org/guides/development
+          http://www.cnblogs.com/zhengjialux/p/6376501.html?utm_source=itdadao&utm_medium=referral
   
   环境搭建须知：
   
-              1/基于node.js,npm         
-               2/webpack全局安装          npm install webpack -g
-                3/webpack前端服务器搭建    npm install --save-dev webpack-dev-server 
+            基于node.js,npm   
+            
+            webpack全局安装          npm install webpack -g
+            
+            webpack前端服务器搭建    npm install --save-dev webpack-dev-server 
                 
 2.react.js添加
     npm install --save-dev react react-dom   //react.js
@@ -19,11 +22,11 @@ photo base on react
     npm install --save-dev style-loader css-loader sass-loader url-loader             //资源加载依赖
 3.webpack下react环境配置
 
-     文件说明
+    文件说明
      
-        webpack.commom.js(基本配置文件) webpack.dev.js(开发环境配置：添加错误追踪等工具) webpack.prod.js(生产环境配置:cheap-module-source-map)
+      webpack.commom.js(基本配置文件) webpack.dev.js(开发环境配置：添加错误追踪等工具) webpack.prod.js(生产环境配置:cheap-module-source-map)
         
-     webpack.commom.js下配置react.js
+    webpack.commom.js下配置react.js
      
         module: {
         loaders: [
@@ -46,7 +49,7 @@ photo base on react
     
 4.启动
 
-   #npm istall 安装依赖
+   #npm install 安装依赖
    
    #npm run build  编译代码
    
